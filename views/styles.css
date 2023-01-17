@@ -1,0 +1,26 @@
+.footer {
+    color: blue;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 2rem;
+  }
+  
+  .producto{
+    display: flex;
+    gap: 2rem ;
+  }
+  
+  .product-img {
+    width: 300px;
+    max-width: 300px;
+    height: 200px;
+    max-height: 200px;
+  }
+  
+  h1 {
+    font-family: 'Lucida Console', 'Courier New', monospace;
+  }

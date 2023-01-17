@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js" ></script>
+    <script src="https://cdn.socket.io/4.5.3/socket.io.min.js"integrity="sha384-WPFUvHkB1aHA5TDSZi6xtDgkF0wXJcIIxXhC6h8OT8EH3fC5PWro5pWJ1THjcfEi"crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <form onsubmit="return false;" class="formulario">
+      <input type="text" placeholder="Producto" id="titulo">
+      <input type="number" placeholder="precio" id="precio">
+      <input type="text" placeholder="url de imagen" id="thumbnail">
+      <button onclick="enviarProducto()">Enviar producto</button>
+    </form>
+    <div id="product-list-div"></div>
+    <form onsubmit="return false;" class="chat">
+      <input type="text"id="email" placeholder="email">
+      <input type="text"id="nombre" placeholder="nombre">
+      <input type="text"id="apellido" placeholder="apellido">
+      <input type="number"id="edad" placeholder="edad">
+      <input type="text"id="alias" placeholder="alias">
+      <input type="text"id="avatar" placeholder="url del avatar">
+      <input type="text" id="content" placeholder="mensaje">
+      <button onclick="enviarMsg()">Enviar</button>
+    </form>
+    
+    <div id="msg-list-div"></div>
+
+  </body>
+</html>

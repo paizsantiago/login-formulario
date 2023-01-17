@@ -1,0 +1,11 @@
+html
+    head
+        title='test pug'
+        style
+            include styles.css
+    body
+        h1="Login"
+        div
+            form(action="/login" method="POST") 
+                input(type="text" name="user" placeholder="usuario")
+                input(type="submit" value="Enviar")

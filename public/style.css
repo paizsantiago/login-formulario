@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+.img-producto{
+  height: 5rem;
+  width: 10rem;
+}
+
+.formulario{
+  margin: 2rem;
+}
+
+.chat{
+  margin: .2rem;
+}
+
+.avatar{
+  height: 3.2rem;
+  width: 3.2rem;
+  margin: .5rem;
+}

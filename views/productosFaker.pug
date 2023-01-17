@@ -1,0 +1,19 @@
+html
+    head
+        title='test pug'
+        style
+            include styles.css
+    body
+        h1="listado de productos"
+        div
+        if productsExist 
+            for item in products
+                div(class="producto")
+                    p=item.titulo
+                    p=item.precio
+                    p=item.descripcion
+                    img(class='product-img', src=item.thumbnail)
+        else 
+            h2= "Ups, no se han encontrado productos"
+
+
